@@ -1,0 +1,33 @@
+{
+  "name": "express-server-911",
+  "version": "1.0.0",
+  "description": "REST API For ESTADISTICA_911 | Make Connections to SQL Server Databases",
+  "homepage": "https://github.com/Rugroso/ESTADISTICA_911_Back#readme",
+  "bugs": {
+    "url": "https://github.com/Rugroso/ESTADISTICA_911_Back/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rugroso/ESTADISTICA_911_Back.git"
+  },
+  "license": "ISC",
+  "author": "Rugroso",
+  "type": "commonjs",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "fast-csv": "^5.0.2",
+    "fs": "^0.0.1-security",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^11.0.1"
+  }
+}
